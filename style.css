@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+body {
+  font-size: 1.6rem;
+  background-color: #002339;
+  color: rgb(255, 255, 255);
+  
+ 
+}
+.all{
+  max-width: 100%;
+  height: 100vh;
+}
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+.nav {
+  width: 100%;
+  background-color: rgba(33, 33, 33, 0.314);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: centre;
+  align-items: center;
+  padding: 1.8rem 10rem;
+  position: fixed;
+  /* position: sticky; */
+  top: 0;
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+
+  justify-content: center;
+  gap: 1.5rem;
+  text-decoration: none;
+}
+.ham{
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.btn {
+  
+  max-width: min-content;
+  border: none;
+  color: white;
+  
+  background-color: #23ce6b;
+  border-radius: 10px;
+  padding: 6px 20px;
+  margin: 5px;
+}
+
+.poster img {
+  max-width: 20rem;
+}
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5rem;
+}
+.m {
+  margin: 1.5rem;
+}
+
+.social-media ul {
+  display: flex;
+  justify-content: left;
+  list-style: none;
+  gap: 2rem;
+}
+.social-media ul li a img {
+  width: 2rem;
+  height: 2rem;
+}
+.skill-heading{
+ margin: 3rem;
+
+ text-align:center ;
+ text-decoration: underline;
+}
+.skill-image ul{
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+align-items: center;
+list-style: none;
+
+}
+.skill-image ul li img{
+  width: 5rem;
+  height: 5rem;
+  margin: 2rem;
+}
+.project h2{
+  margin: 3rem;
+
+ text-align:center ;
+ text-decoration: underline;
+}
+.card{
+  width: 20rem;
+  min-height: min-content;
+ margin: 5rem;
+  border-radius: 8px;
+  background-color: rgba(17, 15, 15, 0.314);
+  overflow: hidden;
+
+}
+.card h4{
+  margin: 1rem;
+  margin-top: 1rem;
+.card-content{
+  margin: 5rem;
+}
+}
+.links ul{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  list-style: none;
+  margin: 2rem;
+  
+}
+.links ul li img{
+  width: 3rem;
+  height: 3rem;
+ 
+}
+.p-intro{
+  font-size: 1rem;
+  margin: 1rem;
+
+}
+.p-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btn img{
+  width: 3rem;
+  height: 3rem;
+}
+.form{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2rem;
+}
+
+.input{
+  
+  border-radius: 1rem;
+  background-color: rgba(17, 15, 15, 0.314);
+  overflow: hidden;
+  display: grid;
+  justify-content: center;
+ 
+  max-width: 40rem;
+ min-height:min-content;
+
+ gap: 2rem;
+ 
+  margin:auto;
+ 
+ 
+}
+.input input{
+  box-sizing: border-box;  
+max-width: 30rem;
+height: 3rem;
+border-radius: 0.7rem;
+border: none;
+margin: 0.5rem;
+padding: 1rem;
+font-weight: 700;
+font-size: 1rem;
+}
+
+.input h4{
+ display: grid;
+ justify-content: center;
+}
+input::placeholder{
+  font-weight: 700;
+  color: rgb(126, 125, 125);
+  
+}
+.btnn{
+  max-width: min-content;
+  border: none;
+  color: white;
+  
+  background-color: #23ce6b;
+  border-radius: 10px;
+  padding: 6px 20px;
+  margin: 5px;
+  display: block;
+  margin:auto;
+}
+.btn:hover{
+  background-color: #026e58;
+  box-shadow: 2px 2px 2px;
+}
+.card:hover{
+  background-color: #026e58;
+  box-shadow: 2px 2px 2px;
+}
+a:hover{
+  background-color: #026e58;
+  border-radius: 0.5rem;
+}
+@media (max-width: 768px){
+  body{
+    font-size: 1rem;
+    margin: 0.1rem;
+   
+  }
+ 
+ 
+  
+  .menu{
+    display: none;
+  }
+  .ham{
+    display:block !important;
+  }
+   .home{
+    margin: 1rem;
+    align-items:flex-start;
+  }
+
+.input{
+  margin: 1rem;
+}
+
+.form{
+  margin: 1rem;
+}
+} 
