@@ -188,7 +188,7 @@ a {
   overflow: hidden;
   display: grid;
   justify-content: center;
-
+  color: black;
   max-width: 40rem;
   min-height: min-content;
 
